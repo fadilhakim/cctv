@@ -1,0 +1,961 @@
+/* line 1, ../sass/costum.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 4, ../sass/costum.scss */
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: reitam;
+  src: url(../../../assets/fonts/ReitamRegular.otf);
+}
+/* line 13, ../sass/costum.scss */
+.reitam {
+  font-family: reitam;
+}
+
+@font-face {
+  font-family: gotham;
+  src: url(../../../assets/fonts/Gotham-Medium.otf);
+}
+/* line 22, ../sass/costum.scss */
+.gotham {
+  font-family: gotham;
+}
+
+@font-face {
+  font-family: gothamRnd;
+  src: url(../../../assets/fonts/GothamRnd-Book.otf);
+}
+/* line 30, ../sass/costum.scss */
+.gothamrnd {
+  font-family: gothamRnd;
+}
+
+/* line 34, ../sass/costum.scss */
+h1, h2, h3 {
+  font-family: gotham;
+  letter-spacing: 1px;
+}
+
+/* line 39, ../sass/costum.scss */
+.putus2-border {
+  background-image: url("../../../assets/image/putus2-border.png");
+  position: absolute;
+  left: -380px;
+  top: -50px;
+  width: 584px;
+  height: 344px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+/* line 49, ../sass/costum.scss */
+.pink-arrow {
+  background-image: url("../../../assets/image/pink-arrow.png");
+  position: absolute;
+  right: 50px;
+  top: -50px;
+  width: 187px;
+  height: 320px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+/* line 61, ../sass/costum.scss */
+.white-wave {
+  background-image: url("../../../assets/image/white-wave.png");
+  position: absolute;
+  left: -150px;
+  top: -70px;
+  width: 522px;
+  height: 458px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+/* line 72, ../sass/costum.scss */
+.second-border {
+  background-image: url("../../../assets/image/second-border.png");
+  position: absolute;
+  right: -260px;
+  bottom: -270px;
+  width: 350px;
+  height: 581px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+/* line 83, ../sass/costum.scss */
+.white-triangle {
+  background-image: url("../../../assets/image/white-triangle.png");
+  position: absolute;
+  right: 60px;
+  top: -20px;
+  width: 192px;
+  height: 124px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+/* line 94, ../sass/costum.scss */
+.green-triangle {
+  background-image: url("../../../assets/image/green-triangle.png");
+  position: absolute;
+  right: 350px;
+  bottom: 35px;
+  width: 132px;
+  height: 85px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+/* line 107, ../sass/costum.scss */
+header {
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  width: 100%;
+  z-index: 9999;
+  height: 150px;
+  text-align: center;
+}
+/* line 117, ../sass/costum.scss */
+header .logo {
+  background-image: url("../../../assets/image/LOGO-G-LENZ_PREVIEW.png");
+  width: 100%;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 125, ../sass/costum.scss */
+header nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+}
+/* line 129, ../sass/costum.scss */
+header nav li a {
+  color: #fff;
+  font-family: reitam;
+  letter-spacing: 1px;
+}
+/* line 134, ../sass/costum.scss */
+header nav li a:hover {
+  color: #F36C1B;
+  text-decoration: none;
+}
+/* line 142, ../sass/costum.scss */
+header .container-table {
+  display: table;
+}
+/* line 145, ../sass/costum.scss */
+header .vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 152, ../sass/costum.scss */
+.follower img {
+  width: 100%;
+}
+
+/* line 157, ../sass/costum.scss */
+.service {
+  background-color: #4abdac;
+  color: #000;
+  padding: 30px 0 25px 0px;
+  position: relative;
+  text-align: center;
+}
+/* line 163, ../sass/costum.scss */
+.service img {
+  width: 100%;
+  margin: auto;
+}
+/* line 168, ../sass/costum.scss */
+.service .satu {
+  background-image: url("../../../assets/image/service1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 173, ../sass/costum.scss */
+.service .dua {
+  background-image: url("../../../assets/image/service2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 179, ../sass/costum.scss */
+.service .tiga {
+  background-image: url("../../../assets/image/service3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 184, ../sass/costum.scss */
+.service .empat {
+  background-image: url("../../../assets/image/service4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 190, ../sass/costum.scss */
+.service .col-lg-3 {
+  height: 220px;
+  position: relative;
+}
+/* line 195, ../sass/costum.scss */
+.service p {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 90%;
+}
+
+/* line 204, ../sass/costum.scss */
+.btm-shape-service {
+  width: 0;
+  height: 0;
+  border-top: 106px solid #4abdac;
+  border-right: 1400px solid transparent;
+  position: absolute;
+  bottom: -106px;
+  left: 0px;
+  z-index: 99;
+}
+
+/* line 215, ../sass/costum.scss */
+.top-shape-produk {
+  width: 0;
+  height: 130px;
+  border-bottom: 130px solid #f06b1a;
+  border-left: 1300px solid transparent;
+  z-index: 99;
+  top: -130px;
+  left: 0px;
+  position: absolute;
+}
+
+/* line 226, ../sass/costum.scss */
+.produk-kami {
+  background-color: #f36c1b;
+  padding: 130px 0 25px 0px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 234, ../sass/costum.scss */
+.produk-kami img {
+  width: 90%;
+}
+/* line 237, ../sass/costum.scss */
+.produk-kami p {
+  padding: 15px;
+}
+/* line 240, ../sass/costum.scss */
+.produk-kami h2 {
+  padding: 5px;
+  border: 3px solid white;
+  width: 250px;
+  margin: 20px auto 10px auto;
+}
+
+/* line 248, ../sass/costum.scss */
+.btm-shape-produk {
+  width: 0;
+  height: 0;
+  border-top: 106px solid #f06b1a;
+  border-right: 1400px solid transparent;
+  position: absolute;
+  bottom: -106px;
+  left: 0px;
+}
+
+/* line 258, ../sass/costum.scss */
+.detail_product {
+  padding-top: 65px;
+}
+/* line 260, ../sass/costum.scss */
+.detail_product .catalog {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/* line 264, ../sass/costum.scss */
+.detail_product .catalog, .detail_product .usermanual {
+  border-radius: 5px;
+  width: 250px;
+  height: 43px;
+  background-image: url("../../../assets/image/dl_bg.png");
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+/* line 272, ../sass/costum.scss */
+.detail_product .catalog p, .detail_product .usermanual p {
+  padding-left: 80px;
+  font-size: 11px;
+  padding-top: 5px;
+}
+/* line 278, ../sass/costum.scss */
+.detail_product .info {
+  width: 100%;
+}
+/* line 279, ../sass/costum.scss */
+.detail_product .info .flex {
+  padding-top: 125px;
+}
+/* line 283, ../sass/costum.scss */
+.detail_product .info p {
+  font-family: gothamRnd;
+}
+/* line 286, ../sass/costum.scss */
+.detail_product .info .videobox {
+  width: 380px;
+  height: 300px;
+  background-color: #000;
+  position: relative;
+}
+/* line 291, ../sass/costum.scss */
+.detail_product .info .videobox .vsample {
+  border-top: 50px solid #FF8A2A;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 250px;
+  position: absolute;
+  bottom: -20px;
+}
+/* line 299, ../sass/costum.scss */
+.detail_product .info .videobox .vtext {
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  color: #fff;
+  z-index: 9;
+}
+/* line 305, ../sass/costum.scss */
+.detail_product .info .videobox .vtext h2 {
+  font-size: 24px;
+}
+
+/* line 313, ../sass/costum.scss */
+.orange-shape {
+  width: 0;
+  height: 130px;
+  border-bottom: 130px solid #f7b733;
+  border-left: 1400px solid transparent;
+  z-index: 99;
+  top: -130px;
+  left: 0px;
+  position: absolute;
+}
+
+/* line 325, ../sass/costum.scss */
+.orange-shape-iot {
+  width: 0;
+  height: 130px;
+  border-bottom: 130px solid #ffa800;
+  border-left: 1400px solid transparent;
+  z-index: 99;
+  top: -130px;
+  left: 0px;
+  position: absolute;
+}
+
+/* line 336, ../sass/costum.scss */
+.hubungi-kami {
+  background-color: #f7b733;
+  padding: 30px 0 180px 0px;
+  position: relative;
+}
+/* line 340, ../sass/costum.scss */
+.hubungi-kami h2 {
+  color: #fff;
+  text-align: center;
+}
+/* line 344, ../sass/costum.scss */
+.hubungi-kami form {
+  width: 50%;
+  margin: auto;
+}
+/* line 347, ../sass/costum.scss */
+.hubungi-kami form input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  padding: 5px 0 5px 5px;
+}
+/* line 354, ../sass/costum.scss */
+.hubungi-kami form select {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  padding: 5px 0 5px 5px;
+}
+/* line 360, ../sass/costum.scss */
+.hubungi-kami form textarea {
+  width: 100%;
+  border: none;
+  padding: 5px 0 5px 5px;
+}
+
+/* line 368, ../sass/costum.scss */
+.white-shape {
+  width: 0;
+  height: 130px;
+  border-bottom: 130px solid #fff;
+  border-left: 1400px solid transparent;
+  z-index: 99;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+/* line 380, ../sass/costum.scss */
+.distribusi {
+  position: relative;
+}
+/* line 382, ../sass/costum.scss */
+.distribusi h2 {
+  text-align: center;
+  width: 250px;
+  border: 3px solid black;
+  text-transform: uppercase;
+  margin: 20px auto 30px auto;
+  font-size: 24px;
+}
+
+/* line 394, ../sass/costum.scss */
+.btm-m {
+  width: 0;
+  height: 130px;
+  border-bottom: 130px solid #f56d1b;
+  border-left: 1300px solid transparent;
+  z-index: 99;
+}
+
+/* line 401, ../sass/costum.scss */
+.btmbtm {
+  width: 100%;
+  background-color: #f56d1b;
+  height: 30px;
+}
+
+/* line 407, ../sass/costum.scss */
+footer {
+  color: #fff;
+}
+/* line 409, ../sass/costum.scss */
+footer .top {
+  background-color: #000;
+  padding: 20px 30px 20px 30px;
+}
+/* line 413, ../sass/costum.scss */
+footer .bottom {
+  background-color: #212121;
+  padding: 15px 30px 15px 30px;
+}
+/* line 418, ../sass/costum.scss */
+footer img {
+  float: right;
+  width: 90%;
+}
+
+/* line 424, ../sass/costum.scss */
+.blog-detail {
+  padding-top: 150px;
+}
+
+/* line 428, ../sass/costum.scss */
+.about-pattern {
+  background-repeat: repeat-x;
+  background-image: url("../../../assets/image/about-gradient.png");
+}
+
+/* line 433, ../sass/costum.scss */
+.about-page {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-position: -252px 150px;
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/image/about-pattern.png");
+}
+/* line 440, ../sass/costum.scss */
+.about-page img {
+  width: 90%;
+}
+/* line 443, ../sass/costum.scss */
+.about-page .ttgkmi {
+  padding-top: 140px;
+}
+/* line 445, ../sass/costum.scss */
+.about-page .ttgkmi p {
+  font-size: 18px;
+}
+
+/* line 452, ../sass/costum.scss */
+.klien-kami h1 {
+  text-align: center;
+}
+/* line 455, ../sass/costum.scss */
+.klien-kami .col-lg-2 {
+  height: 170px;
+  background-color: #efefef;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 464, ../sass/costum.scss */
+.contact-page {
+  padding-top: 65px;
+  background-color: #0c6390;
+}
+/* line 467, ../sass/costum.scss */
+.contact-page h2 {
+  text-align: center;
+}
+
+/* line 475, ../sass/costum.scss */
+.btm-shape-1-contact {
+  width: 0;
+  height: 0;
+  border-top: 106px solid #0c6390;
+  border-right: 1400px solid transparent;
+  position: absolute;
+  bottom: -106px;
+  left: 0px;
+}
+
+/* line 485, ../sass/costum.scss */
+.dislis {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+/* line 489, ../sass/costum.scss */
+.dislis h2 {
+  text-align: center;
+}
+/* line 492, ../sass/costum.scss */
+.dislis strong {
+  font-size: 25px;
+}
+
+/* line 498, ../sass/costum.scss */
+.top-iot {
+  background-image: url("../../../assets/image/iot-top.png");
+  height: 850px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* line 504, ../sass/costum.scss */
+.top-iot .imgiot {
+  text-align: center;
+}
+
+/* line 511, ../sass/costum.scss */
+.instore {
+  position: relative;
+  padding-bottom: 200px;
+}
+/* line 513, ../sass/costum.scss */
+.instore li {
+  margin-top: 20px;
+  list-style-type: square;
+}
+/* line 519, ../sass/costum.scss */
+.instore .iot-top-dash {
+  background-image: url("../../../assets/image/iot-top-dash.png");
+  height: 458px;
+  width: 383px;
+  position: absolute;
+  left: -140px;
+  top: 315px;
+  z-index: 999;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+/* line 533, ../sass/costum.scss */
+.iot-icon {
+  background-color: #ffa800;
+  position: relative;
+  padding-bottom: 60px;
+}
+/* line 536, ../sass/costum.scss */
+.iot-icon .col-lg-4 {
+  width: 185px;
+  height: 166px;
+}
+/* line 541, ../sass/costum.scss */
+.iot-icon .cloud {
+  background-image: url("../../../assets/image/iot1.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+/* line 547, ../sass/costum.scss */
+.iot-icon .video {
+  background-image: url("../../../assets/image/iot2.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 210px;
+}
+/* line 555, ../sass/costum.scss */
+.iot-icon .analisa {
+  background-image: url("../../../assets/image/iot3.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 210px;
+}
+/* line 562, ../sass/costum.scss */
+.iot-icon .api {
+  background-image: url("../../../assets/image/iot4.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 210px;
+}
+/* line 570, ../sass/costum.scss */
+.iot-icon .btm-dash-ito {
+  background-image: url("../../../assets/image/btm-dash-ito.png");
+  height: 1065px;
+  width: 414px;
+  position: absolute;
+  right: -200px;
+  top: -150px;
+  z-index: 999;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+/* line 583, ../sass/costum.scss */
+.detail_left {
+  background-image: url("../../../assets/image/detail_left.png");
+  position: absolute;
+  left: -20%;
+  top: 30%;
+  height: 458px;
+  width: 371px;
+}
+
+/* line 592, ../sass/costum.scss */
+.submit_btn {
+  background-color: #fff;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-family: gothamRnd;
+  box-shadow: 3px 3px #999;
+  text-transform: uppercase;
+  margin: 30px auto 0 auto !important;
+}
+
+/* line 601, ../sass/costum.scss */
+.owl-carousel {
+  background-color: #4ABDAC;
+}
+
+/* line 604, ../sass/costum.scss */
+.owl-theme .owl-nav.disabled .owl-dots {
+  display: none !important;
+}
+
+/* line 607, ../sass/costum.scss */
+.detail_right {
+  background-image: url("../../../assets/image/detail_right.png");
+  position: absolute;
+  right: -25%;
+  top: 39%;
+  height: 593px;
+  width: 538px;
+}
+
+/* line 616, ../sass/costum.scss */
+.product_list {
+  padding-top: 65px;
+  position: relative;
+}
+/* line 619, ../sass/costum.scss */
+.product_list .product_shape_left {
+  background-image: url("../../../assets/image/product_shape_left.png");
+  position: absolute;
+  left: -15%;
+  top: 30%;
+  height: 383px;
+  width: 339px;
+}
+/* line 627, ../sass/costum.scss */
+.product_list .product_shape_right {
+  background-image: url("../../../assets/image/product_shape_right.png");
+  position: absolute;
+  right: -30%;
+  top: 250px;
+  height: 358px;
+  width: 508px;
+}
+/* line 635, ../sass/costum.scss */
+.product_list h2 {
+  border: 5px dashed solid;
+  text-align: center;
+  width: 40%;
+  margin: 0  auto 30px auto;
+}
+/* line 641, ../sass/costum.scss */
+.product_list .col-lg-4 {
+  height: 320px;
+  margin-bottom: 20px;
+}
+/* line 644, ../sass/costum.scss */
+.product_list .col-lg-4 .product_title {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 650, ../sass/costum.scss */
+.product_list .col-lg-4 .product_desc {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+/* line 655, ../sass/costum.scss */
+.product_list .col-lg-4 .boximg {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 658, ../sass/costum.scss */
+.product_list .col-lg-4 .boximg img {
+  width: 65%;
+  display: block;
+  margin: auto;
+}
+
+/* line 669, ../sass/costum.scss */
+.navbar {
+  display: none;
+}
+
+/* line 674, ../sass/costum.scss */
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 142%;
+}
+/* line 677, ../sass/costum.scss */
+.dropdown-menu a {
+  color: #fff !important;
+  font-family: reitam;
+}
+/* line 681, ../sass/costum.scss */
+.dropdown-menu a:hover {
+  color: #000 !important;
+}
+
+/* line 687, ../sass/costum.scss */
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 693, ../sass/costum.scss */
+.purple_border {
+  border-top: 3px solid #FF8A2A;
+  float: right;
+  height: 10px;
+  width: 71%;
+  margin-top: 36px;
+  display: inline-block;
+  margin-right: 75px;
+}
+
+/* line 704, ../sass/costum.scss */
+.info img {
+  width: 90%;
+  margin: auto;
+}
+
+/* line 712, ../sass/costum.scss */
+.modal-dialog {
+  padding-top: 150px;
+}
+
+/* line 718, ../sass/costum.scss */
+.blogpage {
+  padding-top: 65px;
+}
+
+/* line 722, ../sass/costum.scss */
+article {
+  padding-bottom: 20px;
+}
+
+/* line 726, ../sass/costum.scss */
+.article-caption {
+  position: absolute;
+  bottom: 16px;
+  max-width: 90%;
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+/* line 736, ../sass/costum.scss */
+.article-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 745, ../sass/costum.scss */
+  .article-title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 752, ../sass/costum.scss */
+  .article-title {
+    font-size: 20px;
+  }
+}
+/* line 758, ../sass/costum.scss */
+.article-caption a {
+  color: white;
+}
+
+@media only screen and (max-width: 1025px) {
+  /* line 764, ../sass/costum.scss */
+  .pattern {
+    display: none;
+    background: #fff;
+  }
+
+  /* line 769, ../sass/costum.scss */
+  .detail_left {
+    display: none;
+  }
+
+  /* line 773, ../sass/costum.scss */
+  .detail_right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* line 780, ../sass/costum.scss */
+  .detail_left {
+    display: none;
+  }
+
+  /* line 784, ../sass/costum.scss */
+  .videobox {
+    width: 100% !important;
+    height: 165px !important;
+  }
+  /* line 787, ../sass/costum.scss */
+  .videobox iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 793, ../sass/costum.scss */
+  .detail_right {
+    display: none;
+  }
+
+  /* line 796, ../sass/costum.scss */
+  .detail_product .info .flex {
+    padding-top: 0px;
+  }
+
+  /* line 801, ../sass/costum.scss */
+  .info .flex {
+    height: 260px !important;
+  }
+
+  /* line 806, ../sass/costum.scss */
+  .about-page .ttgkmi {
+    padding-top: 20px;
+  }
+
+  /* line 809, ../sass/costum.scss */
+  .about-page {
+    background-image: none;
+  }
+
+  /* line 812, ../sass/costum.scss */
+  .icon-bar {
+    background-color: #fff !important;
+  }
+
+  /* line 815, ../sass/costum.scss */
+  .navbar-toggle {
+    margin-right: 0px !important;
+  }
+
+  /* line 818, ../sass/costum.scss */
+  .navbar-default {
+    border-color: #000;
+  }
+
+  /* line 821, ../sass/costum.scss */
+  .owl-carousel {
+    padding-top: 50px;
+  }
+
+  /* line 824, ../sass/costum.scss */
+  header {
+    display: none;
+    background: #fff;
+  }
+
+  /* line 828, ../sass/costum.scss */
+  .navbar {
+    display: block;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  /* line 833, ../sass/costum.scss */
+  .navbar-header {
+    width: 100%;
+  }
+
+  /* line 836, ../sass/costum.scss */
+  .navbar {
+    background-color: #000;
+    width: 100%;
+  }
+
+  /* line 841, ../sass/costum.scss */
+  .navbar-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  /* line 848, ../sass/costum.scss */
+  .navbar-brand {
+    height: 50px;
+    display: block;
+    width: 120px;
+  }
+  /* line 852, ../sass/costum.scss */
+  .navbar-brand img {
+    width: 100%;
+    display: block;
+  }
+
+  /* line 857, ../sass/costum.scss */
+  .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+
+  /* line 860, ../sass/costum.scss */
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: orange;
+  }
+}
