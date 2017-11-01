@@ -55,7 +55,7 @@
           <a class="reitam" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Produk <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <?php foreach ($category_product as $cp) { ?>
-                <li><a href="#"><?php echo $cp->category_title; ?></a></li>
+                <li><a href="<?php echo base_url('product_list/'.$cp->category_url); ?>"><?php echo $cp->category_title; ?></a></li>
             <?php } ?>
           </ul>
         </li>

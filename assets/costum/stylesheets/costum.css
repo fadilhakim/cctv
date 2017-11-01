@@ -808,127 +808,202 @@ article {
   object-fit: cover;
 }
 
+/* line 743, ../sass/costum.scss */
+.top-desc {
+  display: block;
+}
+
+/* line 746, ../sass/costum.scss */
+.btm-desc {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 745, ../sass/costum.scss */
+  /* line 752, ../sass/costum.scss */
   .article-title {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 752, ../sass/costum.scss */
+  /* line 759, ../sass/costum.scss */
   .article-title {
     font-size: 20px;
   }
 }
-/* line 758, ../sass/costum.scss */
+/* line 765, ../sass/costum.scss */
 .article-caption a {
   color: white;
 }
 
 @media only screen and (max-width: 1025px) {
-  /* line 764, ../sass/costum.scss */
+  /* line 771, ../sass/costum.scss */
   .pattern {
     display: none;
     background: #fff;
   }
 
-  /* line 769, ../sass/costum.scss */
+  /* line 776, ../sass/costum.scss */
   .detail_left {
     display: none;
   }
 
-  /* line 773, ../sass/costum.scss */
+  /* line 780, ../sass/costum.scss */
   .detail_right {
     display: none;
   }
 }
 @media only screen and (max-width: 420px) {
-  /* line 780, ../sass/costum.scss */
+  /* line 787, ../sass/costum.scss */
   .detail_left {
     display: none;
   }
 
-  /* line 784, ../sass/costum.scss */
+  /* line 790, ../sass/costum.scss */
+  .top-iot {
+    height: 270px;
+  }
+
+  /* line 793, ../sass/costum.scss */
+  .instore .iot-top-dash {
+    display: none;
+  }
+
+  /* line 796, ../sass/costum.scss */
+  .iot-icon .btm-dash-ito {
+    display: none;
+  }
+
+  /* line 799, ../sass/costum.scss */
+  .product_list .product_shape_left {
+    display: none;
+  }
+
+  /* line 802, ../sass/costum.scss */
+  .product_list .product_shape_right {
+    display: none;
+  }
+
+  /* line 805, ../sass/costum.scss */
+  .iot-icon .col-lg-4 {
+    width: 100%;
+  }
+
+  /* line 808, ../sass/costum.scss */
+  .iot-icon .cloud {
+    background-position: center;
+  }
+
+  /* line 811, ../sass/costum.scss */
+  .instore {
+    padding-bottom: 70px;
+  }
+
+  /* line 814, ../sass/costum.scss */
+  .top-desc {
+    display: none;
+  }
+
+  /* line 817, ../sass/costum.scss */
+  .btm-desc {
+    display: block;
+  }
+
+  /* line 820, ../sass/costum.scss */
+  .iot-icon .video {
+    background-position: center;
+  }
+
+  /* line 823, ../sass/costum.scss */
+  .iot-icon .analisa {
+    background-position: center;
+  }
+
+  /* line 826, ../sass/costum.scss */
+  .iot-icon .api {
+    background-position: center;
+  }
+
+  /* line 829, ../sass/costum.scss */
   .videobox {
     width: 100% !important;
     height: 165px !important;
   }
-  /* line 787, ../sass/costum.scss */
+  /* line 832, ../sass/costum.scss */
   .videobox iframe {
     width: 100% !important;
     height: 100% !important;
   }
 
-  /* line 793, ../sass/costum.scss */
+  /* line 838, ../sass/costum.scss */
   .detail_right {
     display: none;
   }
 
-  /* line 796, ../sass/costum.scss */
+  /* line 841, ../sass/costum.scss */
   .detail_product .info .flex {
     padding-top: 0px;
   }
 
-  /* line 801, ../sass/costum.scss */
+  /* line 846, ../sass/costum.scss */
   .info .flex {
     height: 260px !important;
   }
 
-  /* line 806, ../sass/costum.scss */
+  /* line 851, ../sass/costum.scss */
   .about-page .ttgkmi {
     padding-top: 20px;
   }
 
-  /* line 809, ../sass/costum.scss */
+  /* line 854, ../sass/costum.scss */
   .about-page {
     background-image: none;
   }
 
-  /* line 812, ../sass/costum.scss */
+  /* line 857, ../sass/costum.scss */
   .icon-bar {
     background-color: #fff !important;
   }
 
-  /* line 815, ../sass/costum.scss */
+  /* line 860, ../sass/costum.scss */
   .navbar-toggle {
     margin-right: 0px !important;
   }
 
-  /* line 818, ../sass/costum.scss */
+  /* line 863, ../sass/costum.scss */
   .navbar-default {
     border-color: #000;
   }
 
-  /* line 821, ../sass/costum.scss */
+  /* line 866, ../sass/costum.scss */
   .owl-carousel {
     padding-top: 50px;
   }
 
-  /* line 824, ../sass/costum.scss */
+  /* line 869, ../sass/costum.scss */
   header {
     display: none;
     background: #fff;
   }
 
-  /* line 828, ../sass/costum.scss */
+  /* line 873, ../sass/costum.scss */
   .navbar {
     display: block;
     position: fixed;
     z-index: 99999;
   }
 
-  /* line 833, ../sass/costum.scss */
+  /* line 878, ../sass/costum.scss */
   .navbar-header {
     width: 100%;
   }
 
-  /* line 836, ../sass/costum.scss */
+  /* line 881, ../sass/costum.scss */
   .navbar {
     background-color: #000;
     width: 100%;
   }
 
-  /* line 841, ../sass/costum.scss */
+  /* line 886, ../sass/costum.scss */
   .navbar-toggle {
     background: none;
     border: none;
@@ -937,24 +1012,24 @@ article {
     letter-spacing: 1px;
   }
 
-  /* line 848, ../sass/costum.scss */
+  /* line 893, ../sass/costum.scss */
   .navbar-brand {
     height: 50px;
     display: block;
     width: 120px;
   }
-  /* line 852, ../sass/costum.scss */
+  /* line 897, ../sass/costum.scss */
   .navbar-brand img {
     width: 100%;
     display: block;
   }
 
-  /* line 857, ../sass/costum.scss */
+  /* line 902, ../sass/costum.scss */
   .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
   }
 
-  /* line 860, ../sass/costum.scss */
+  /* line 905, ../sass/costum.scss */
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: orange;
   }

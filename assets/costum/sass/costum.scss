@@ -314,7 +314,7 @@ header {
     width: 0;
     height: 130px;
     border-bottom: 130px solid #f7b733;
-    border-left: 1400px solid transparent;
+    border-left: 1600px solid transparent;
     z-index: 99;
     top:-130px;
     left: 0px;
@@ -369,7 +369,7 @@ header {
     width: 0;
     height: 130px;
     border-bottom: 130px solid #fff;
-    border-left: 1400px solid transparent;
+    border-left: 1600px solid transparent;
     z-index: 99;
     bottom:0px;
     left: 0px;
@@ -395,7 +395,7 @@ header {
            width: 0; 
 		   height:130px; 
 		   border-bottom: 130px solid #f56d1b; 
-		   border-left: 1300px solid transparent;
+		   border-left: 1600px solid transparent;
 		   z-index: 99;
 }
 .btmbtm {
@@ -740,6 +740,13 @@ max-height: 400px;
 object-fit: cover;
 }
 
+.top-desc {
+	display:block;
+}
+.btm-desc {
+	display:none;
+}
+
 
 @media screen and (max-width: 768px) { 
 .article-title
@@ -780,7 +787,45 @@ color: white;
 	.detail_left {
 		display: none;
 	}
-
+	.top-iot {
+		height: 270px;
+	}
+	.instore .iot-top-dash {
+		display: none;
+	}
+	.iot-icon .btm-dash-ito {
+		display: none;
+	}
+	.product_list .product_shape_left {
+		display: none;
+	}
+	.product_list .product_shape_right {
+		display: none;
+	}
+	.iot-icon .col-lg-4 {
+		width: 100%;
+	}
+	.iot-icon .cloud {
+		background-position: center;
+	}
+	.instore {
+		padding-bottom: 70px;
+	}
+	.top-desc {
+		display: none;
+	}
+	.btm-desc {
+		display: block;
+	}
+	.iot-icon .video {
+		background-position: center;
+	}
+	.iot-icon .analisa {
+		background-position:center;
+	}
+	.iot-icon .api {
+		background-position: center;
+	}
 	.videobox {
 		width: 100% !important;
 		height: 165px !important;

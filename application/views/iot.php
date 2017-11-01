@@ -34,7 +34,8 @@
 	<div class="orange-shape-iot">
 		
 	</div>
-	<div class="container">
+	<div class="container top-desc">
+
 		<div class="row"  data-aos="fade-right">
 			<div class="col-lg-4 cloud">
 				
@@ -94,6 +95,74 @@
 			<div class="col-lg-4 api">
 
 			</div>
+		</div>
+
+	</div>
+
+	<div class="container btm-desc">
+	
+		<div class="row"  data-aos="fade-right">
+			<div class="col-lg-4 cloud">
+				
+			</div>
+			<div class="col-lg-8" style="padding-top: 25px;">
+				<strong>Komputasi awan dan optimalisasi</strong>
+				<p>
+					Video teknologi analisa G-Lenz memberikan solusi video intelejen dengan <br>
+					arsitektur optimalisasi  sistem komputasi awan untuk pemrosesan data, analisis,<br> 
+					dan penyimpanan data yang lebih handal dan efisien untuk menghemat biaya.<br>
+				</p>
+			</div>
+		</div>
+
+		<div class="row"  data-aos="fade-left">
+			
+			<div class="col-lg-4 video">
+				
+			</div>
+
+			<div class="col-lg-8" style="text-align: right; padding-top: 50px;">
+				<strong>Teknologi Video-Sentris</strong>
+				<p>
+					Solusi bisnis intelejen, manajemen konten dan analisa video yang berteknologi <br>
+					tinggi memungkinkan penggunaan manajemen konten rich-media yang efisien<br>
+					untuk publik dan sector swasta.<br>
+				</p>
+			</div>
+		</div>
+
+		<div class="row"  data-aos="fade-right">
+			<div class="col-lg-4 analisa">
+				
+			</div>
+			<div class="col-lg-8" style="padding-top: 50px;">
+				<strong>Matriks Solusi Video Teknologi Analisa G-Lenz </strong>
+				<p>
+					Merubah data menjadi informasi langsung yang dapat ditindak lanjuti atas <br>
+					kemampuan verifikasi identifikasi orang, kendaraan dan obyek. Analisa berbasis <br>
+					lokasi untuk menciptakan nilai dan membuka peluang baru <br>
+				</p>
+			</div>
+		</div>
+
+
+		<div class="row"  data-aos="fade-left">
+
+			<div class="col-lg-4 api">
+
+			</div>
+			
+			<div class="col-lg-8" style="text-align: right; padding-top: 50px;">
+				<strong>Integrasi API</strong>
+				<p>
+					Menerapkan solusi dengan menggabungkan awan dan optimalisasi API antara <br>
+					penyedia layanan dan pembuat perangkat keras untuk memberikan nilai<br>
+					lebih pada layanan aplikasi yang digunakan di lingkungan<br>
+					industri dan komersial.<br>
+				</p>
+			</div>
+
+			
 		</div>
 
 	</div>
